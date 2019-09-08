@@ -1,7 +1,6 @@
 import React from "react";
 import { Menu, Image, Dropdown } from "semantic-ui-react";
 import { Link } from "react-router-dom";
-import SettingsDashboard from "./../../user/Settings/SettingsDashboard";
 
 const SignedInMenu = ({ signOut }) => {
   return (

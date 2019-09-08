@@ -9,6 +9,7 @@ import HomePage from "../../features/home/HomePage";
 import Navbar from "../../features/NavBar/Navbar";
 import { Container } from "semantic-ui-react";
 import { Route } from "react-router-dom";
+import TestComponent from "../../features/testArea/TestComponent";
 
 class App extends Component {
   render() {
@@ -27,6 +28,7 @@ class App extends Component {
                 <Route path='/profile/:id' component={UserDetailedPage} />
                 <Route path='/settings' component={SettingsDasboard} />
                 <Route path='/createEvent' component={EventForm} />
+                <Route path='/test' component={TestComponent} />
               </Container>
             </Fragment>
           )}
